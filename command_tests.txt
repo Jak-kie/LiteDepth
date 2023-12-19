@@ -1,0 +1,4 @@
+# non va fatto runnare, serve solo per avere a disposizioni i comandi sempre sottomano
+python -c "import torch;print(torch.backends.cuda.is_built())"
+
+python -c "import torch;print(torch.distributed.is_nccl_available())"
